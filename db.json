@@ -1,0 +1,165 @@
+{
+    "pizzas": [
+      {
+        "id": 1,
+        "name": "Margherita",
+        "ingredients": ["Tomato", "Mozzarella", "Basil"],
+        "price": 12,
+        "image": "https://example.com/margherita.jpg",
+        "available": true
+      },
+      {
+        "id": 2,
+        "name": "Capricciosa",
+        "ingredients": ["Tomato", "Mozzarella", "Ham", "Mushrooms", "Artichoke"],
+        "price": 14,
+        "image": "https://example.com/capricciosa.jpg",
+        "available": false
+      },
+      {
+        "id": 3,
+        "name": "Romana",
+        "ingredients": ["Tomato", "Mozzarella", "Prosciutto"],
+        "price": 15,
+        "image": "https://example.com/romana.jpg",
+        "available": true
+      },
+      {
+        "id": 4,
+        "name": "Prosciutto e Rucola",
+        "ingredients": ["Tomato", "Mozzarella", "Prosciutto", "Arugula"],
+        "price": 16,
+        "image": "https://example.com/rucola.jpg",
+        "available": true
+      },
+      {
+        "id": 5,
+        "name": "Diavola",
+        "ingredients": ["Tomato", "Mozzarella", "Spicy Salami", "Chili Flakes"],
+        "price": 16,
+        "image": "https://example.com/diavola.jpg",
+        "available": true
+      },
+      {
+        "id": 6,
+        "name": "Vegetale",
+        "ingredients": ["Tomato", "Mozzarella", "Bell Peppers", "Onions", "Mushrooms"],
+        "price": 13,
+        "image": "https://example.com/vegetale.jpg",
+        "available": true
+      },
+      {
+        "id": 7,
+        "name": "Quattro Formaggi",
+        "ingredients": ["Tomato", "Mozzarella", "Parmesan", "Gorgonzola", "Ricotta"],
+        "price": 18,
+        "image": "https://example.com/quattro.jpg",
+        "available": true
+      },
+      {
+        "id": 8,
+        "name": "Napolitana",
+        "ingredients": ["Tomato", "Mozzarella", "Anchovies", "Oregano", "Garlic"],
+        "price": 14,
+        "image": "https://example.com/napolitana.jpg",
+        "available": true
+      },
+      {
+        "id": 9,
+        "name": "BBQ Chicken",
+        "ingredients": ["BBQ Sauce", "Chicken", "Mozzarella", "Red Onions", "Cilantro"],
+        "price": 17,
+        "image": "https://example.com/bbq-chicken.jpg",
+        "available": true
+      },
+      {
+        "id": 10,
+        "name": "Hawaiian",
+        "ingredients": ["Tomato", "Mozzarella", "Ham", "Pineapple"],
+        "price": 15,
+        "image": "https://example.com/hawaiian.jpg",
+        "available": true
+      },
+      {
+        "id": 11,
+        "name": "Meat Lovers",
+        "ingredients": ["Tomato", "Mozzarella", "Pepperoni", "Sausage", "Ham", "Bacon"],
+        "price": 19,
+        "image": "https://example.com/meat-lovers.jpg",
+        "available": true
+      },
+      {
+        "id": 12,
+        "name": "Pepperoni",
+        "ingredients": ["Tomato", "Mozzarella", "Pepperoni"],
+        "price": 14,
+        "image": "https://example.com/pepperoni.jpg",
+        "available": true
+      },
+      {
+        "id": 13,
+        "name": "Supreme",
+        "ingredients": ["Tomato", "Mozzarella", "Pepperoni", "Sausage", "Bell Peppers", "Olives", "Onions"],
+        "price": 18,
+        "image": "https://example.com/supreme.jpg",
+        "available": true
+      },
+      {
+        "id": 14,
+        "name": "Buffalo Chicken",
+        "ingredients": ["Buffalo Sauce", "Mozzarella", "Chicken", "Ranch Dressing"],
+        "price": 17,
+        "image": "https://example.com/buffalo-chicken.jpg",
+        "available": true
+      },
+      {
+        "id": 15,
+        "name": "Truffle Mushroom",
+        "ingredients": ["Truffle Oil", "Mozzarella", "Mushrooms", "Parmesan"],
+        "price": 20,
+        "image": "https://example.com/truffle-mushroom.jpg",
+        "available": true
+      },
+      {
+        "id": 16,
+        "name": "White Pizza",
+        "ingredients": ["Garlic Sauce", "Mozzarella", "Ricotta", "Spinach"],
+        "price": 16,
+        "image": "https://example.com/white-pizza.jpg",
+        "available": true
+      },
+      {
+        "id": 17,
+        "name": "Tandoori Chicken",
+        "ingredients": ["Tomato", "Mozzarella", "Tandoori Chicken", "Red Onion", "Cilantro"],
+        "price": 18,
+        "image": "https://example.com/tandoori-chicken.jpg",
+        "available": true
+      },
+      {
+        "id": 18,
+        "name": "Greek Pizza",
+        "ingredients": ["Tomato", "Mozzarella", "Feta Cheese", "Olives", "Red Onion"],
+        "price": 17,
+        "image": "https://example.com/greek-pizza.jpg",
+        "available": true
+      },
+      {
+        "id": 19,
+        "name": "Spicy Jalapeno",
+        "ingredients": ["Tomato", "Mozzarella", "Jalapenos", "Chili Flakes", "Pepperoni"],
+        "price": 15,
+        "image": "https://example.com/spicy-jalapeno.jpg",
+        "available": true
+      },
+      {
+        "id": 20,
+        "name": "Seafood Delight",
+        "ingredients": ["Tomato", "Mozzarella", "Shrimp", "Calamari", "Garlic"],
+        "price": 22,
+        "image": "https://example.com/seafood-delight.jpg",
+        "available": true
+      }
+    ]
+  }
+  
