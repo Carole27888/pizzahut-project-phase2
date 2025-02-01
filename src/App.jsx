@@ -6,6 +6,7 @@ import CartPage from "./pages/CartPage";
 import CheckoutPage from "./pages/CheckoutPage";
 import OrderStatusPage from "./pages/OrderStatusPage";
 import Header from "./components/Header";
+import "./App.css";
 
 function App() {
   const [cart, setCart] = useState([]); // ✅ Ensures cart state is managed globally

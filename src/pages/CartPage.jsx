@@ -24,30 +24,39 @@ function CartPage({ cart, setCart }) {
   };
 
   return (
-    <div className="cart">
+    <div className="cart-page">
       <h2>Your Cart</h2>
       {cart.length === 0 ? (
         <p>Your cart is empty. <Link to="/menu">Go to Menu</Link></p>
       ) : (
-        <ul>
+        <div className="cart-items">
           {cart.map((pizza) => (
-            <li key={pizza.id} className="cart-item">
-              <span>{pizza.name} - €{pizza.price} </span>
-              <span> | Quantity: </span>  
-              <button onClick={() => decreaseQuantity(pizza.id)}>-</button>
-              <span> {pizza.quantity} </span>
-              <button onClick={() => increaseQuantity(pizza.id)}>+</button>
-              <button onClick={() => removeItem(pizza.id)}>Remove</button>
-            </li>
+            <div className="cart-item" key={pizza.id}>
+              <img src={pizza.image} alt={pizza.name} className="cart-item-image" />
+              <div className="cart-item-details">
+                <h3>{pizza.name}</h3>
+                <p>{pizza.ingredients.join(", ")}</p>
+                <p><strong>€{pizza.price}</strong></p>
+              </div>
+              <div className="cart-item-actions">
+                <button className="decrease-btn" onClick={() => decreaseQuantity(pizza.id)}>-</button>
+                <span>{pizza.quantity}</span>
+                <button className="increase-btn" onClick={() => increaseQuantity(pizza.id)}>+</button>
+                <button className="remove-btn" onClick={() => removeItem(pizza.id)}>Remove</button>
+              </div>
+            </div>
           ))}
-        </ul>
+        </div>
       )}
-      <h3>Total: €{total.toFixed(2)}</h3>
-      {cart.length > 0 && (
-        <Link to="/checkout">
-          <button>Checkout</button>
-        </Link>
-      )}
+
+      <div className="order-summary">
+        <h3>Total: €{total.toFixed(2)}</h3>
+        {cart.length > 0 && (
+          <Link to="/checkout">
+            <button className="checkout-btn">Checkout</button>
+          </Link>
+        )}
+      </div>
     </div>
   );
 }

@@ -16,6 +16,7 @@ function CheckoutPage() {
     
     // Navigate to Order Status Page
     navigate(`/order-status/${orderId}`);
+
   };
 
   return (
